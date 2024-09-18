@@ -1,5 +1,5 @@
 node {
-    stages {
+    stages('Build') {
         sh 'npm install'
     }
     stage('Test') { 
